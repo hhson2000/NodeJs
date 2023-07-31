@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhson2000/Blog_nodejs.git"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "author": "SonHH1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhson2000/Blog_nodejs/issues"
+  },
+  "homepage": "https://github.com/hhson2000/Blog_nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
